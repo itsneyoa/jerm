@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  container {
+    @apply grid place-content-center min-h-screen z-0 select-none relative text-center;
+    background-image: linear-gradient(#5dcdf5, #f7a9b7, #ffffff, #f7a9b7, #5dcdf5);
+  }
+}
+
+@layer components {
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      @apply h-40 pointer-events-none z-20 opacity-50;
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+}

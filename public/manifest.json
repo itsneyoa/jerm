@@ -1,0 +1,13 @@
+{
+  "name": "Jperm is a bald non",
+  "short_name": "Jerm",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#f42069",
+  "background_color": "#f42069",
+  "description": "Jperm is a bald non",
+  "icons": [],
+  "splash_pages": null
+}
